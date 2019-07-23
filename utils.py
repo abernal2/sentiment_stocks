@@ -3,7 +3,7 @@
 """
 Created on Tue Jul 16 10:01:47 2019
 
-@author: abernal2
+@author: Armando Bernal
 """
 
 import re
