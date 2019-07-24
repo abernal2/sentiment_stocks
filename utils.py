@@ -154,7 +154,7 @@ def get_batches(x, y, batch_size=100):
         
 
 
-def retrain_network(model_dir, batch_size, train_x, train_y, epochs):
+def retrain_network(model_dir, batch_size, train_x, train_y, val_x, val_y, epochs):
     
     inputs_, labels_, keep_prob_ = model_inputs()
     embed = build_embedding_layer(inputs_, vocab_size, embed_size)
